@@ -1,0 +1,87 @@
+2023-09-01 04:04:54,100 INFO [logger.py(log:11)] - ====== WebDriver manager ======
+2023-09-01 04:05:03,080 INFO [logger.py(log:11)] - Get LATEST chromedriver version for google-chrome
+2023-09-01 04:05:03,081 INFO [logger.py(log:11)] - Get LATEST chromedriver version for google-chrome
+2023-09-01 04:05:03,081 INFO [logger.py(log:11)] - There is no [win64] chromedriver "116.0.5845.111" for browser google-chrome "116.0.5845.111" in cache
+2023-09-01 04:05:03,081 INFO [logger.py(log:11)] - Get LATEST chromedriver version for google-chrome
+2023-09-01 04:05:03,360 INFO [logger.py(log:11)] - WebDriver version 116.0.5845.96 selected
+2023-09-01 04:05:03,365 INFO [logger.py(log:11)] - Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip
+2023-09-01 04:05:03,365 INFO [logger.py(log:11)] - About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win32/chromedriver-win32.zip
+2023-09-01 04:05:04,203 INFO [logger.py(log:11)] - Driver downloading response is 200
+2023-09-01 04:05:06,540 INFO [logger.py(log:11)] - Get LATEST chromedriver version for google-chrome
+2023-09-01 04:05:06,642 INFO [logger.py(log:11)] - Driver has been saved in cache [C:\Users\bing\.wdm\drivers\chromedriver\win64\116.0.5845.111]
+2023-09-01 04:05:14,987 INFO [base.py(__init__:16)] - Initialing，driver object：<selenium.webdriver.chrome.webdriver.WebDriver (session="947b519da7f410ff0f71001af6d6d6bb")>
+2023-09-01 04:05:14,987 INFO [base.py(__init__:16)] - Initialing，driver object：<selenium.webdriver.chrome.webdriver.WebDriver (session="947b519da7f410ff0f71001af6d6d6bb")>
+2023-09-01 04:05:14,991 INFO [base.py(base_click:24)] - Clicking element：('xpath', "//img[@alt='close icon']")
+2023-09-01 04:05:14,991 INFO [base.py(base_find:20)] - Finding element：('xpath', "//img[@alt='close icon']")
+2023-09-01 04:05:15,071 INFO [base.py(base_click:24)] - Clicking element：('xpath', "//a[@href='/login']")
+2023-09-01 04:05:15,071 INFO [base.py(base_find:20)] - Finding element：('xpath', "//a[@href='/login']")
+2023-09-01 04:05:22,655 INFO [base.py(base_find:20)] - Finding element：('xpath', "//input[@type='email']")
+2023-09-01 04:05:22,904 INFO [base.py(base_input:33)] - Input into：('xpath', "//input[@type='email']") content：jianbing.zhou@asc-dev.com.cn
+2023-09-01 04:05:28,031 INFO [base.py(base_find:20)] - Finding element：('xpath', "//input[@type='password']")
+2023-09-01 04:05:28,181 INFO [base.py(base_input:33)] - Input into：('xpath', "//input[@type='password']") content：test1234
+2023-09-01 04:05:28,235 INFO [base.py(base_click:24)] - Clicking element：('xpath', "//span[text()='Log In']/..")
+2023-09-01 04:05:28,236 INFO [base.py(base_find:20)] - Finding element：('xpath', "//span[text()='Log In']/..")
+2023-09-01 04:05:28,307 INFO [base.py(base_click:24)] - Clicking element：('xpath', "//img[@alt='close icon']")
+2023-09-01 04:05:28,307 INFO [base.py(base_find:20)] - Finding element：('xpath', "//img[@alt='close icon']")
+2023-09-01 04:05:30,003 INFO [base.py(base_click:24)] - Clicking element：('xpath', "//a[@href='/user/profile']")
+2023-09-01 04:05:30,003 INFO [base.py(base_find:20)] - Finding element：('xpath', "//a[@href='/user/profile']")
+2023-09-01 04:05:35,069 INFO [base.py(base_find:20)] - Finding element：('name', 'firstName')
+2023-09-01 04:05:35,284 INFO [base.py(base_input:33)] - Input into：('name', 'firstName') content：1
+2023-09-01 04:05:40,328 INFO [base.py(base_find:20)] - Finding element：('name', 'lastname')
+2023-09-01 04:05:50,960 ERROR [test01_web_login_update_profile.py(test_02_WebLoginUpdateProfile:41)] - Message: 
+Stacktrace:
+	GetHandleVerifier [0x002937C3+48947]
+	(No symbol) [0x00228551]
+	(No symbol) [0x0012C92D]
+	(No symbol) [0x00159E38]
+	(No symbol) [0x00159EFB]
+	(No symbol) [0x00188EF2]
+	(No symbol) [0x001750D4]
+	(No symbol) [0x001875DA]
+	(No symbol) [0x00174E86]
+	(No symbol) [0x001516C7]
+	(No symbol) [0x0015284D]
+	GetHandleVerifier [0x004DFDF9+2458985]
+	GetHandleVerifier [0x0052744F+2751423]
+	GetHandleVerifier [0x00521361+2726609]
+	GetHandleVerifier [0x00310680+560624]
+	(No symbol) [0x0023238C]
+	(No symbol) [0x0022E268]
+	(No symbol) [0x0022E392]
+	(No symbol) [0x002210B7]
+	BaseThreadInitThunk [0x75CC00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DF7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DF7AEE+238]
+	(No symbol) [0x00000000]
+
+2023-09-01 04:05:50,960 INFO [base.py(base_get_img:45)] - Calling screen capture method
+2023-09-01 04:05:56,135 INFO [base.py(base_find:20)] - Finding element：('name', 'firstName')
+2023-09-01 04:05:56,317 INFO [base.py(base_input:33)] - Input into：('name', 'firstName') content：<script> window.alert();</script>
+2023-09-01 04:06:01,452 INFO [base.py(base_find:20)] - Finding element：('name', 'lastname')
+2023-09-01 04:06:12,028 ERROR [test01_web_login_update_profile.py(test_02_WebLoginUpdateProfile:41)] - Message: 
+Stacktrace:
+	GetHandleVerifier [0x002937C3+48947]
+	(No symbol) [0x00228551]
+	(No symbol) [0x0012C92D]
+	(No symbol) [0x00159E38]
+	(No symbol) [0x00159EFB]
+	(No symbol) [0x00188EF2]
+	(No symbol) [0x001750D4]
+	(No symbol) [0x001875DA]
+	(No symbol) [0x00174E86]
+	(No symbol) [0x001516C7]
+	(No symbol) [0x0015284D]
+	GetHandleVerifier [0x004DFDF9+2458985]
+	GetHandleVerifier [0x0052744F+2751423]
+	GetHandleVerifier [0x00521361+2726609]
+	GetHandleVerifier [0x00310680+560624]
+	(No symbol) [0x0023238C]
+	(No symbol) [0x0022E268]
+	(No symbol) [0x0022E392]
+	(No symbol) [0x002210B7]
+	BaseThreadInitThunk [0x75CC00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DF7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DF7AEE+238]
+	(No symbol) [0x00000000]
+
+2023-09-01 04:06:12,028 INFO [base.py(base_get_img:45)] - Calling screen capture method

@@ -1,0 +1,16 @@
+[  {
+      "case_name": "Update using number ",
+      "first_name": "1",
+      "last_name": "0",
+      "phone_number": "12345678",
+      "expected_result": "fail"
+    },
+    {
+      "case_name": "Update using js ",
+      "first_name": "<script> window.alert();</script>",
+      "last_name": "0",
+      "phone_number": "12345678",
+      "expected_result": "fail"
+    }
+
+  ]
